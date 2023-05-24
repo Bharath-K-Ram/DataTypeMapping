@@ -6,3 +6,9 @@
 EMAIL_REGEX = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
 URL_REGEX = r'(?:https?|ftp)://[\w\-]+(?:\.[\w\-]+)+(?::\d+)?(?:/[^\s]*)?'
 IMAGE_REGEX = r''
+
+# Logging levels
+INFO = "INFO"
+DEBUG = "DEBUG"
+EXCEPTION = "EXCEPTION"
+ERROR = "ERROR"

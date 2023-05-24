@@ -28,5 +28,6 @@ def _load_model():
 if __name__ == "__main__":
     model = _load_model()
     mapped_result = data_type_mapping_ui(model)
-    st.dataframe(mapped_result)
+    if mapped_result is not None:
+        st.dataframe(mapped_result)
 

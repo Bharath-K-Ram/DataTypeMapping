@@ -3,6 +3,7 @@
 # @Date 12:13 PM 24/05/23 using PyCharm
 import pandas as pd
 
+from utils.constants import INFO, DEBUG
 from utils.logging_config import log
 
 
@@ -16,12 +17,12 @@ class DataTypeMappingController:
         self.model = model
         self.data = data
         self.dim = None
-        self.log_flag = False
+        self.log_flag = True
 
     def controller(self):
         self.data = pd.read_csv(self.data)
         self.dim = self.data.shape
-        log(logger=self.log_flag, msg=f"Shape of input {self.dim}", exception=False)
+        log(logger=self.log_flag, msg=f"Shape of input {self.dim}", level=INFO)
 
         return self.data
 

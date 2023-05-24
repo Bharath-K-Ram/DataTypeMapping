@@ -10,6 +10,9 @@ def data_type_mapping_ui(model):
     with st.sidebar:
         st.header("Data type mapping")
         uploaded_file = st.file_uploader("Choose a file", type=['csv'], help="Upload a file of type csv")
-        if uploaded_file is not None:
+        button_flag = False if uploaded_file is not None else True
+        action = st.button("Submit", disabled=button_flag)
+        if action and not button_flag:
             obj = DataTypeMappingController(model, uploaded_file)
-            return obj.controller()
+            if obj is not None:
+                return obj.controller()
