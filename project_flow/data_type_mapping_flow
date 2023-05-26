@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2023-05-26T05:56:56.846Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="md7hCPjyHsvEjB1Ak203" version="21.3.3" type="device">
+  <diagram name="Page-1" id="Luh8LkHYdq_c1POfZsLi">
+    <mxGraphModel dx="1290" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IcMxvP3A7MRlpXJzrjVK-2" target="IcMxvP3A7MRlpXJzrjVK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IcMxvP3A7MRlpXJzrjVK-2" target="IcMxvP3A7MRlpXJzrjVK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IcMxvP3A7MRlpXJzrjVK-2" target="eCg-P7EogpWDdAcfRJSo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-2" value="Checking the similarity of user given data columns with the crm data type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="360" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-6" value="Mapped columns:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email&lt;/li&gt;&lt;li&gt;Phone&lt;/li&gt;&lt;li&gt;Url&lt;/li&gt;&lt;li&gt;Single Line&lt;/li&gt;&lt;li&gt;Image&lt;/li&gt;&lt;li&gt;User&lt;/li&gt;&lt;li&gt;Currency`&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="210" width="166" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-7" value="Unmapped Columns :&lt;br&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Pick list&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Multi select&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Single line&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Multi line&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Decimal&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Number&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Auto Number&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Check box&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="400" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-10" value="mapped column" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="304" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IcMxvP3A7MRlpXJzrjVK-11" value="unmapped column" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="294" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-4" value="Mapped and Un-mapped &lt;br&gt;columns may differ &lt;br&gt;depending the column&lt;br&gt;&amp;nbsp;names in the user&amp;nbsp;&lt;br&gt;given file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="330" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="20" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCg-P7EogpWDdAcfRJSo-9" target="eCg-P7EogpWDdAcfRJSo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eCg-P7EogpWDdAcfRJSo-9" target="eCg-P7EogpWDdAcfRJSo-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="941" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-9" value="Finding the data type using regex for each column and mapping it the crm data types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="635" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-12" value="Step 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-13" value="Step 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="242.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eCg-P7EogpWDdAcfRJSo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-14" value="Taking a sample of 2000 &lt;br&gt;if data.size &amp;gt; 2000&lt;br&gt;else entire data is taken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="150" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCg-P7EogpWDdAcfRJSo-15" target="IcMxvP3A7MRlpXJzrjVK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-15" value="Mapping the column names to the data type by string matching" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="242.5" width="130" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-19" value="Step 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-20" value="Step 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="488" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCg-P7EogpWDdAcfRJSo-21" target="eCg-P7EogpWDdAcfRJSo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workdocs;fillColor=#000000;gradientColor=#000000;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="40" width="81" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eCg-P7EogpWDdAcfRJSo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-25" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-27" value="csv file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-28" value="Mapping columns using the Data Types:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email&lt;/li&gt;&lt;li&gt;Phone&lt;/li&gt;&lt;li&gt;Image&lt;/li&gt;&lt;li&gt;File&lt;/li&gt;&lt;li&gt;Date Time&lt;/li&gt;&lt;li&gt;Date&lt;/li&gt;&lt;li&gt;Formulae&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="620" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-30" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="920" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="eCg-P7EogpWDdAcfRJSo-33" value="Data types mapped &lt;br&gt;with Columns names&lt;br&gt;&amp;nbsp;as dictionary" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="174" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

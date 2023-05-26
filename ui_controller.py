@@ -1,7 +1,7 @@
 # @Author BHARATH RAM K (12053)
 # @Email  bharathram.k@zohocorp.com
 # @Date 11:29 AM 24/05/23 using PyCharm
-
+import pandas as pd
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 
@@ -27,7 +27,11 @@ def _load_model():
 
 if __name__ == "__main__":
     model = _load_model()
-    mapped_result = data_type_mapping_ui(model)
+    mapped_result, input_data = data_type_mapping_ui(model)
+
     if mapped_result is not None:
-        st.dataframe(mapped_result)
+        st.header("User Uploaded File")
+        st.dataframe(input_data)
+        st.header("Crm data types mapped with User given data")
+        st.write(mapped_result)
 
